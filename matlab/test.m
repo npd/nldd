@@ -5,7 +5,7 @@ addpath('mex');
 %addpath('mex_no_OMP');
 
 % Read image and add noise
-img = imread('Dice.png');
+img = imread('test.png');
 stddev = 30.;
 
 noise = stddev * randn(size(img));
