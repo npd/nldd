@@ -14,6 +14,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <string.h>
 
 #include "NlBayes/NlBayes.h"
 #include "Utilities/LibImages.h"

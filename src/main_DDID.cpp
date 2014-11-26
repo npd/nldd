@@ -21,6 +21,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <vector>
+#include <string.h>
 
 #include "Utilities/LibImages.h"
 #include "DDID/RunDDID.h"

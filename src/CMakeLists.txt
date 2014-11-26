@@ -82,7 +82,7 @@ SET_TARGET_PROPERTIES(DDID PROPERTIES
 
 # NLBAYES BINARY
 add_executable (NLBAYES
-                main_NLBAYES.cpp NlBayes/NlBayes.cpp NlBayes/LibMatrix.cpp
+                main_NLBayes.cpp NlBayes/NlBayes.cpp NlBayes/LibMatrix.cpp
                 ${COMMON_SRC}
                 )
 target_link_libraries(NLBAYES ${LIBS})
